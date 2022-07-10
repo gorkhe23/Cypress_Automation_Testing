@@ -1,0 +1,14 @@
+{
+  "name": "handling-new-tab-and-window",
+  "version": "1.0.0",
+  "description": "How to handle new browser tab and windows with cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.5.3"
+  }
+}
