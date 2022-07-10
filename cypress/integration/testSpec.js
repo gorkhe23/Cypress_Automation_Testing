@@ -7,7 +7,7 @@ describe('Handling new browser tab and windows in cypress', () => {
         cy.get('h1').should('contain', 'Table of Contents');
     })
 
-    it.only('Handling New Window', function () {
+    it('Handling New Window', function () {
         cy.visit('https://alapanme.github.io/testing-cypress.html');
         const newUrl = "https://the-internet.herokuapp.com/";
         cy.window().then(win => {
